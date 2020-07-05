@@ -1,0 +1,154 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+   
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/Lichking.jpg);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    flex-direction: column;
+    background-size: auto cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+}
+
+ul.principal{
+  border-radius: 10px;
+  width: 90%;
+  max-width: 1000px; 
+  padding: 10px; 
+  background: rgba(0, 0,0, .5);
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+
+  
+}
+
+.menu{
+ height: 32px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex: 1;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #07031a ;
+    margin: 0;
+    padding: 0;
+}
+
+.men{
+    display: none;
+}
+
+
+
+@media (max-width: 768px){
+    ul.principal{
+        flex-wrap: wrap;
+    }
+    .menu{
+        flex-basis: 33%;
+    }
+
+    .men{
+        display: flex;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, .5);
+        
+        border-radius: 10px;
+        box-sizing: border-box;
+        width: 90%;
+        max-width: 1000px; 
+        
+    
+    }
+
+    ul.principal{
+        display: none;
+    }
+
+    
+}
+@media (max-width: 340px){
+    .menu{
+        flex-basis: 100%;
+    }
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+[ src*="maxres"]{
+  
+  border-radius: 10px;
+  width: 90%;
+  max-width: 1000px; 
+  height: 100%;
+  margin-bottom: -8px ;
+  
+}
+
+
+
+.a{
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #07031a;
+    color: #fff;
+}
+[ src*="497"]{
+  margin-right: .5em;
+  width: 1em;
+  height: 1em;
+  background-color: #fff;
+  
+  
+}
+
+.foot{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    
+    margin-bottom: 10px;
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #07031a;
+    
+    
+    
+}
+
+.p{
+    margin: 0;
+}
